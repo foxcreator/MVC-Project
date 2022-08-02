@@ -2,7 +2,9 @@
     "name": "foxcreator/mvc",
     "autoload": {
         "psr-4": {
-            "Foxcreator\\Mvc\\": "src/"
+            "App\\": "App/",
+            "Config\\": "Config/",
+            "Core\\": "Core/"
         }
     },
     "authors": [
@@ -13,6 +15,7 @@
     ],
     "require": {
         "larapack/dd": "1.0",
-        "symfony/var-dumper": "6.0.9"
+        "symfony/var-dumper": "6.0.9",
+        "vlucas/phpdotenv": "^5.4"
     }
 }
